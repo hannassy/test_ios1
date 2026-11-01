@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C919473A432270CA04C41C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BEF841D3D532B1AFF5690C /* PlayerView.swift */; };
+		066861FB129F41F91F44E06F /* RootMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B5FD641841BD11FF5EDE73 /* RootMenuView.swift */; };
+		0AEEA04DB2AD84DE7184F9AF /* ReportDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3FBAA37761DB8DF354DB2 /* ReportDetailView.swift */; };
+		0D094DC14D60EC844FCDD7E0 /* OutagesFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83BEB10D0A3950C6414BC9 /* OutagesFeature.swift */; };
+		14AECC4495E9F8F3442C754B /* DebugRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903DF2A562B1F7F288DF5DF2 /* DebugRootView.swift */; };
+		18C4601D008BF4A323296E6C /* PlaceSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A6A480C70153BCA942EB6 /* PlaceSwitcherView.swift */; };
+		1BCC79757ACF2D7A85C19A7E /* AudiobooksFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3687B7CB0B0F042463BD814 /* AudiobooksFeature.swift */; };
+		208CA5D9065E97C232D17BE7 /* DtekRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E6B990FD20A96BAD92320 /* DtekRegion.swift */; };
+		32C5F604EC554C61648AF7DE /* CurrentStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B977826180361465E685E /* CurrentStatusView.swift */; };
+		3573D75B803D451C955258AE /* DiagnosticLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE159FD888D269404883E3 /* DiagnosticLogTests.swift */; };
+		4ABDB26780190154F0AD11AF /* DtekAjaxClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D79A13B35DE193AF8250D /* DtekAjaxClient.swift */; };
+		4E597B46AA56DB15507D3089 /* BackgroundRefreshHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CDBDB11D34369A8DD01EFE /* BackgroundRefreshHandler.swift */; };
+		4FD66173FF6A6E94515FC0B5 /* FeatureRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D861C840C8E79AFF7965C /* FeatureRegistry.swift */; };
+		52ABDDBEDEC210179D20086F /* WKCookieFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A8B4793F13C069100049A9 /* WKCookieFetcher.swift */; };
+		5376578DE52BD907BC45CC82 /* OutagesRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1DC2A84D8D3AAA8427F1B /* OutagesRootView.swift */; };
+		537DC57DA223C925E223D057 /* BookModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20FB203423FDA4EBFA5694 /* BookModels.swift */; };
+		58874B42901713C712AE16F8 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CCBECF0234E77ADBCF27B9 /* AppFeature.swift */; };
+		591CDA9506FB4DD16B5A0E67 /* AudiobooksRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC237A7A89FA7C06866C17 /* AudiobooksRootView.swift */; };
+		6AC78EB64D12EFEDED952B95 /* BookCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8E3F278A44FA023669DC8 /* BookCoverView.swift */; };
+		7996ACD9A64D015520B8E68D /* DayScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7367FEC81077CE4C141F20C /* DayScheduleView.swift */; };
+		86E0E4C503179D64FBD648CB /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 2C65DA01B2F57971EEB22F36 /* ZIPFoundation */; };
+		8A3AA06B673913F42A78A197 /* SharedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE229DD5FD671FB417F745C0 /* SharedModels.swift */; };
+		8FD9EB6C36950C39B178B2C4 /* AddPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E20A82D81EFDFBAC55C0D /* AddPlaceView.swift */; };
+		8FE895159C246D4359BF67B4 /* WeekScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE09D17DEE791D9634176D9 /* WeekScheduleView.swift */; };
+		94C059BCCC1790F042645238 /* OutageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA3B66E3A81C3303A0E1DA /* OutageModels.swift */; };
+		960CDD9705BB2E1CA2A7F3A7 /* AudiobooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7634E7B6843EF185E6FD3 /* AudiobooksViewModel.swift */; };
+		97AA735E87274DB4C246AC92 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD2B84D695137BAC95FCAF5 /* AudioPlayer.swift */; };
+		9E54A1B68F7CD5EF3AE1038D /* ZipImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44218BF1B4F4013760D2B55B /* ZipImporter.swift */; };
+		A124481F6064F1FA848D93A0 /* BookLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF9700FE6107C362A4C1C7 /* BookLibrary.swift */; };
+		A2BD52F97074B526530ADEEC /* AddressStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C525EA792BFF7BCBFEDF1D40 /* AddressStoreTests.swift */; };
+		A4D4FD3A9D9E9E6E6ECC9546 /* DiagnosticLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1963261C8C0F3AC18C1D195C /* DiagnosticLog.swift */; };
+		A825ABE751251CF9E1C8A559 /* FeatureRegistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B52207F0DE66BB7738C287 /* FeatureRegistryTests.swift */; };
+		B91F92242F2F341E72B635D8 /* OutageWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF38691125FCE4672EB429D /* OutageWidget.swift */; };
+		B9B65AC48F80BC400FB3A61C /* ReportRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A70F196AB8DA70D539A38 /* ReportRowView.swift */; };
+		BB21BABCA6955E1FCFC22DC0 /* DebugFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81304A61AA244EE1583CBB59 /* DebugFeature.swift */; };
+		CEB7D3D5A058492DEAB9F469 /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE99455102312C22FC34A7B /* BookRowView.swift */; };
+		D66005EA762666B9872BD1E6 /* WidgetSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987555CD9D28B19F74679005 /* WidgetSnapshotStore.swift */; };
+		DBD21F53231BBEC5723C83FA /* StubDtekClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191EA90CE15CB65DAD2EDCD /* StubDtekClient.swift */; };
+		E1E4FA7CFC66862A5B26F0B5 /* OutageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD37135A4EA5AD5F6EB26C /* OutageViewModel.swift */; };
+		E4AAB97759B8E4F3ACEB5182 /* AddressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6C0B48D941B473A8EBEBDD /* AddressStore.swift */; };
+		F63EA9B879346A71631C622B /* PhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1DEB68F1526B594E6AFA6 /* PhoneApp.swift */; };
+		FAD6D091983F6592CAAD3060 /* OutageScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EF6D83C4DC84E17D5180C /* OutageScheduleTests.swift */; };
+		FF0F994B22DC7C9D038C3409 /* DtekClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25220ED71880D5B2C0497D31 /* DtekClientProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5213368F3E0EA63AE3EAFFEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CE761F2039B4C4EE8A7725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B82F749123828A82B0C3D3AC;
+			remoteInfo = phoneApp;
+		};
+		5BE5F01D11CE0D5714B66A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CE761F2039B4C4EE8A7725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F03036234899C588516D56;
+			remoteInfo = OutageWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078E20A82D81EFDFBAC55C0D /* AddPlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceView.swift; sourceTree = "<group>"; };
+		0ACF9700FE6107C362A4C1C7 /* BookLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLibrary.swift; sourceTree = "<group>"; };
+		1595A578721224C224E57186 /* phoneApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = phoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1963261C8C0F3AC18C1D195C /* DiagnosticLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticLog.swift; sourceTree = "<group>"; };
+		1BD2B84D695137BAC95FCAF5 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		25220ED71880D5B2C0497D31 /* DtekClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtekClientProtocol.swift; sourceTree = "<group>"; };
+		2C075EC666F41B4B1FE2C48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40EA3B66E3A81C3303A0E1DA /* OutageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutageModels.swift; sourceTree = "<group>"; };
+		44218BF1B4F4013760D2B55B /* ZipImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipImporter.swift; sourceTree = "<group>"; };
+		45A1DC2A84D8D3AAA8427F1B /* OutagesRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutagesRootView.swift; sourceTree = "<group>"; };
+		5A34E60FFABE3B2A8C407C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5BD8E3F278A44FA023669DC8 /* BookCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCoverView.swift; sourceTree = "<group>"; };
+		5C6C0B48D941B473A8EBEBDD /* AddressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressStore.swift; sourceTree = "<group>"; };
+		5FE99455102312C22FC34A7B /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
+		63B7634E7B6843EF185E6FD3 /* AudiobooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiobooksViewModel.swift; sourceTree = "<group>"; };
+		67FC237A7A89FA7C06866C17 /* AudiobooksRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiobooksRootView.swift; sourceTree = "<group>"; };
+		6CE09D17DEE791D9634176D9 /* WeekScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekScheduleView.swift; sourceTree = "<group>"; };
+		6D20FB203423FDA4EBFA5694 /* BookModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModels.swift; sourceTree = "<group>"; };
+		7191EA90CE15CB65DAD2EDCD /* StubDtekClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubDtekClient.swift; sourceTree = "<group>"; };
+		73E1DEB68F1526B594E6AFA6 /* PhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneApp.swift; sourceTree = "<group>"; };
+		745B977826180361465E685E /* CurrentStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentStatusView.swift; sourceTree = "<group>"; };
+		75268E895DFB7E0DEAC814DC /* phoneApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = phoneApp.entitlements; sourceTree = "<group>"; };
+		79B5FD641841BD11FF5EDE73 /* RootMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootMenuView.swift; sourceTree = "<group>"; };
+		81304A61AA244EE1583CBB59 /* DebugFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugFeature.swift; sourceTree = "<group>"; };
+		846E6B990FD20A96BAD92320 /* DtekRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtekRegion.swift; sourceTree = "<group>"; };
+		868A70F196AB8DA70D539A38 /* ReportRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRowView.swift; sourceTree = "<group>"; };
+		89A8B4793F13C069100049A9 /* WKCookieFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKCookieFetcher.swift; sourceTree = "<group>"; };
+		8AE3FBAA37761DB8DF354DB2 /* ReportDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailView.swift; sourceTree = "<group>"; };
+		8C83BEB10D0A3950C6414BC9 /* OutagesFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutagesFeature.swift; sourceTree = "<group>"; };
+		903DF2A562B1F7F288DF5DF2 /* DebugRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugRootView.swift; sourceTree = "<group>"; };
+		963D861C840C8E79AFF7965C /* FeatureRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRegistry.swift; sourceTree = "<group>"; };
+		987555CD9D28B19F74679005 /* WidgetSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotStore.swift; sourceTree = "<group>"; };
+		9ABE159FD888D269404883E3 /* DiagnosticLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticLogTests.swift; sourceTree = "<group>"; };
+		B72EF6D83C4DC84E17D5180C /* OutageScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutageScheduleTests.swift; sourceTree = "<group>"; };
+		B7367FEC81077CE4C141F20C /* DayScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayScheduleView.swift; sourceTree = "<group>"; };
+		BE4514E34C0C465ED4789E6D /* phoneAppTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = phoneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B52207F0DE66BB7738C287 /* FeatureRegistryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRegistryTests.swift; sourceTree = "<group>"; };
+		C39A6A480C70153BCA942EB6 /* PlaceSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSwitcherView.swift; sourceTree = "<group>"; };
+		C525EA792BFF7BCBFEDF1D40 /* AddressStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressStoreTests.swift; sourceTree = "<group>"; };
+		CB39A6A1FE14E3547DD48495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE229DD5FD671FB417F745C0 /* SharedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedModels.swift; sourceTree = "<group>"; };
+		D1CDBDB11D34369A8DD01EFE /* BackgroundRefreshHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefreshHandler.swift; sourceTree = "<group>"; };
+		D5697AD879A2204F6EFDF5ED /* OutageWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OutageWidget.entitlements; sourceTree = "<group>"; };
+		E6BEF841D3D532B1AFF5690C /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		EE41A1AB291C718ABA3771A6 /* OutageWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OutageWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF38691125FCE4672EB429D /* OutageWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutageWidget.swift; sourceTree = "<group>"; };
+		F3687B7CB0B0F042463BD814 /* AudiobooksFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiobooksFeature.swift; sourceTree = "<group>"; };
+		F7CCBECF0234E77ADBCF27B9 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		F96D79A13B35DE193AF8250D /* DtekAjaxClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtekAjaxClient.swift; sourceTree = "<group>"; };
+		FCCD37135A4EA5AD5F6EB26C /* OutageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutageViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C662439FBB6219531BEDBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E0E4C503179D64FBD648CB /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0564BAAA596AE8DA5953B995 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				50D1E3AD5BD8BE78A9FCA6DA /* Audiobooks */,
+				DD030E54C8FF08790D8876EF /* Debug */,
+				4C9FE5CA5164EF1C02D0668F /* Outages */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		16F6F1E4E1C68244F7075B36 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F96D79A13B35DE193AF8250D /* DtekAjaxClient.swift */,
+				25220ED71880D5B2C0497D31 /* DtekClientProtocol.swift */,
+				FCCD37135A4EA5AD5F6EB26C /* OutageViewModel.swift */,
+				987555CD9D28B19F74679005 /* WidgetSnapshotStore.swift */,
+				89A8B4793F13C069100049A9 /* WKCookieFetcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D0A6E19B9C417ED34A50201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE41A1AB291C718ABA3771A6 /* OutageWidget.appex */,
+				1595A578721224C224E57186 /* phoneApp.app */,
+				BE4514E34C0C465ED4789E6D /* phoneAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		218AFFD58D55FA4636B58926 /* phoneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C525EA792BFF7BCBFEDF1D40 /* AddressStoreTests.swift */,
+				9ABE159FD888D269404883E3 /* DiagnosticLogTests.swift */,
+				C1B52207F0DE66BB7738C287 /* FeatureRegistryTests.swift */,
+				2C075EC666F41B4B1FE2C48A /* Info.plist */,
+				B72EF6D83C4DC84E17D5180C /* OutageScheduleTests.swift */,
+				236CFA84D46FF04014B37DAF /* Stubs */,
+			);
+			path = phoneAppTests;
+			sourceTree = "<group>";
+		};
+		236CFA84D46FF04014B37DAF /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				7191EA90CE15CB65DAD2EDCD /* StubDtekClient.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		2C3FC1ED537FCE98C94E9E62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D20FB203423FDA4EBFA5694 /* BookModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F0FAA51612519C901EBBF6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67FC237A7A89FA7C06866C17 /* AudiobooksRootView.swift */,
+				5BD8E3F278A44FA023669DC8 /* BookCoverView.swift */,
+				5FE99455102312C22FC34A7B /* BookRowView.swift */,
+				E6BEF841D3D532B1AFF5690C /* PlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		432AB233D498C144909057FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45E1EE59E01E30E2F508E2AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46C7C0258012C97486E3F3D1 = {
+			isa = PBXGroup;
+			children = (
+				5C5A25C45D49697EB34F1455 /* OutageWidget */,
+				8E01AC24D227F2F7CF899C1C /* phoneApp */,
+				218AFFD58D55FA4636B58926 /* phoneAppTests */,
+				1D0A6E19B9C417ED34A50201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9FE5CA5164EF1C02D0668F /* Outages */ = {
+			isa = PBXGroup;
+			children = (
+				8C83BEB10D0A3950C6414BC9 /* OutagesFeature.swift */,
+				5D4545F59E0D8753C1C88CCB /* Models */,
+				16F6F1E4E1C68244F7075B36 /* Services */,
+				5F83579D7DD8BE2CC2A4F695 /* Views */,
+			);
+			path = Outages;
+			sourceTree = "<group>";
+		};
+		50D1E3AD5BD8BE78A9FCA6DA /* Audiobooks */ = {
+			isa = PBXGroup;
+			children = (
+				F3687B7CB0B0F042463BD814 /* AudiobooksFeature.swift */,
+				2C3FC1ED537FCE98C94E9E62 /* Models */,
+				62D41AA365045AE814E8C74C /* Services */,
+				2F0FAA51612519C901EBBF6D /* Views */,
+			);
+			path = Audiobooks;
+			sourceTree = "<group>";
+		};
+		5C5A25C45D49697EB34F1455 /* OutageWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5A34E60FFABE3B2A8C407C55 /* Info.plist */,
+				D5697AD879A2204F6EFDF5ED /* OutageWidget.entitlements */,
+				EEF38691125FCE4672EB429D /* OutageWidget.swift */,
+				CE229DD5FD671FB417F745C0 /* SharedModels.swift */,
+			);
+			path = OutageWidget;
+			sourceTree = "<group>";
+		};
+		5D4545F59E0D8753C1C88CCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C6C0B48D941B473A8EBEBDD /* AddressStore.swift */,
+				846E6B990FD20A96BAD92320 /* DtekRegion.swift */,
+				40EA3B66E3A81C3303A0E1DA /* OutageModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F83579D7DD8BE2CC2A4F695 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				078E20A82D81EFDFBAC55C0D /* AddPlaceView.swift */,
+				745B977826180361465E685E /* CurrentStatusView.swift */,
+				B7367FEC81077CE4C141F20C /* DayScheduleView.swift */,
+				45A1DC2A84D8D3AAA8427F1B /* OutagesRootView.swift */,
+				C39A6A480C70153BCA942EB6 /* PlaceSwitcherView.swift */,
+				6CE09D17DEE791D9634176D9 /* WeekScheduleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62D41AA365045AE814E8C74C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63B7634E7B6843EF185E6FD3 /* AudiobooksViewModel.swift */,
+				1BD2B84D695137BAC95FCAF5 /* AudioPlayer.swift */,
+				0ACF9700FE6107C362A4C1C7 /* BookLibrary.swift */,
+				44218BF1B4F4013760D2B55B /* ZipImporter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8E01AC24D227F2F7CF899C1C /* phoneApp */ = {
+			isa = PBXGroup;
+			children = (
+				CB39A6A1FE14E3547DD48495 /* Info.plist */,
+				75268E895DFB7E0DEAC814DC /* phoneApp.entitlements */,
+				F72B04B479E47A0DBA22D4D1 /* App */,
+				0564BAAA596AE8DA5953B995 /* Features */,
+				432AB233D498C144909057FC /* Resources */,
+			);
+			path = phoneApp;
+			sourceTree = "<group>";
+		};
+		AE36B0BD29AEB75DF6D395AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				903DF2A562B1F7F288DF5DF2 /* DebugRootView.swift */,
+				8AE3FBAA37761DB8DF354DB2 /* ReportDetailView.swift */,
+				868A70F196AB8DA70D539A38 /* ReportRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD030E54C8FF08790D8876EF /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				81304A61AA244EE1583CBB59 /* DebugFeature.swift */,
+				45E1EE59E01E30E2F508E2AC /* Models */,
+				AE36B0BD29AEB75DF6D395AD /* Views */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		F72B04B479E47A0DBA22D4D1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F7CCBECF0234E77ADBCF27B9 /* AppFeature.swift */,
+				D1CDBDB11D34369A8DD01EFE /* BackgroundRefreshHandler.swift */,
+				1963261C8C0F3AC18C1D195C /* DiagnosticLog.swift */,
+				963D861C840C8E79AFF7965C /* FeatureRegistry.swift */,
+				73E1DEB68F1526B594E6AFA6 /* PhoneApp.swift */,
+				79B5FD641841BD11FF5EDE73 /* RootMenuView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BCF8C86104B5601DBA7BE14 /* phoneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72C77E2EDE1DEF02E838E0E /* Build configuration list for PBXNativeTarget "phoneAppTests" */;
+			buildPhases = (
+				329191B48832580881ACB789 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39A46224ACFBAC86F332A4F2 /* PBXTargetDependency */,
+			);
+			name = phoneAppTests;
+			packageProductDependencies = (
+			);
+			productName = phoneAppTests;
+			productReference = BE4514E34C0C465ED4789E6D /* phoneAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B82F749123828A82B0C3D3AC /* phoneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0544DAAE1EC88989A5A652D8 /* Build configuration list for PBXNativeTarget "phoneApp" */;
+			buildPhases = (
+				6796BAC070DE65405E1C6CD4 /* Sources */,
+				87C662439FBB6219531BEDBA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA601A74D410B95D7DCE5AB4 /* PBXTargetDependency */,
+			);
+			name = phoneApp;
+			packageProductDependencies = (
+				2C65DA01B2F57971EEB22F36 /* ZIPFoundation */,
+			);
+			productName = phoneApp;
+			productReference = 1595A578721224C224E57186 /* phoneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1F03036234899C588516D56 /* OutageWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4016792F619940F366CFF5A0 /* Build configuration list for PBXNativeTarget "OutageWidget" */;
+			buildPhases = (
+				F3D41309D96F3DE59AC46552 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutageWidget;
+			packageProductDependencies = (
+			);
+			productName = OutageWidget;
+			productReference = EE41A1AB291C718ABA3771A6 /* OutageWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CE761F2039B4C4EE8A7725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1BCF8C86104B5601DBA7BE14 = {
+						DevelopmentTeam = "";
+					};
+					B82F749123828A82B0C3D3AC = {
+						DevelopmentTeam = "";
+					};
+					E1F03036234899C588516D56 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 736BD06FFB5029DD53975952 /* Build configuration list for PBXProject "phoneApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 46C7C0258012C97486E3F3D1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3054B69590DC85273184D23C /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1D0A6E19B9C417ED34A50201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B82F749123828A82B0C3D3AC /* phoneApp */,
+				E1F03036234899C588516D56 /* OutageWidget */,
+				1BCF8C86104B5601DBA7BE14 /* phoneAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329191B48832580881ACB789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BD52F97074B526530ADEEC /* AddressStoreTests.swift in Sources */,
+				3573D75B803D451C955258AE /* DiagnosticLogTests.swift in Sources */,
+				A825ABE751251CF9E1C8A559 /* FeatureRegistryTests.swift in Sources */,
+				FAD6D091983F6592CAAD3060 /* OutageScheduleTests.swift in Sources */,
+				DBD21F53231BBEC5723C83FA /* StubDtekClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6796BAC070DE65405E1C6CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD9EB6C36950C39B178B2C4 /* AddPlaceView.swift in Sources */,
+				E4AAB97759B8E4F3ACEB5182 /* AddressStore.swift in Sources */,
+				58874B42901713C712AE16F8 /* AppFeature.swift in Sources */,
+				97AA735E87274DB4C246AC92 /* AudioPlayer.swift in Sources */,
+				1BCC79757ACF2D7A85C19A7E /* AudiobooksFeature.swift in Sources */,
+				591CDA9506FB4DD16B5A0E67 /* AudiobooksRootView.swift in Sources */,
+				960CDD9705BB2E1CA2A7F3A7 /* AudiobooksViewModel.swift in Sources */,
+				4E597B46AA56DB15507D3089 /* BackgroundRefreshHandler.swift in Sources */,
+				6AC78EB64D12EFEDED952B95 /* BookCoverView.swift in Sources */,
+				A124481F6064F1FA848D93A0 /* BookLibrary.swift in Sources */,
+				537DC57DA223C925E223D057 /* BookModels.swift in Sources */,
+				CEB7D3D5A058492DEAB9F469 /* BookRowView.swift in Sources */,
+				32C5F604EC554C61648AF7DE /* CurrentStatusView.swift in Sources */,
+				7996ACD9A64D015520B8E68D /* DayScheduleView.swift in Sources */,
+				BB21BABCA6955E1FCFC22DC0 /* DebugFeature.swift in Sources */,
+				14AECC4495E9F8F3442C754B /* DebugRootView.swift in Sources */,
+				A4D4FD3A9D9E9E6E6ECC9546 /* DiagnosticLog.swift in Sources */,
+				4ABDB26780190154F0AD11AF /* DtekAjaxClient.swift in Sources */,
+				FF0F994B22DC7C9D038C3409 /* DtekClientProtocol.swift in Sources */,
+				208CA5D9065E97C232D17BE7 /* DtekRegion.swift in Sources */,
+				4FD66173FF6A6E94515FC0B5 /* FeatureRegistry.swift in Sources */,
+				94C059BCCC1790F042645238 /* OutageModels.swift in Sources */,
+				E1E4FA7CFC66862A5B26F0B5 /* OutageViewModel.swift in Sources */,
+				0D094DC14D60EC844FCDD7E0 /* OutagesFeature.swift in Sources */,
+				5376578DE52BD907BC45CC82 /* OutagesRootView.swift in Sources */,
+				F63EA9B879346A71631C622B /* PhoneApp.swift in Sources */,
+				18C4601D008BF4A323296E6C /* PlaceSwitcherView.swift in Sources */,
+				02C919473A432270CA04C41C /* PlayerView.swift in Sources */,
+				0AEEA04DB2AD84DE7184F9AF /* ReportDetailView.swift in Sources */,
+				B9B65AC48F80BC400FB3A61C /* ReportRowView.swift in Sources */,
+				066861FB129F41F91F44E06F /* RootMenuView.swift in Sources */,
+				52ABDDBEDEC210179D20086F /* WKCookieFetcher.swift in Sources */,
+				8FE895159C246D4359BF67B4 /* WeekScheduleView.swift in Sources */,
+				D66005EA762666B9872BD1E6 /* WidgetSnapshotStore.swift in Sources */,
+				9E54A1B68F7CD5EF3AE1038D /* ZipImporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D41309D96F3DE59AC46552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91F92242F2F341E72B635D8 /* OutageWidget.swift in Sources */,
+				8A3AA06B673913F42A78A197 /* SharedModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39A46224ACFBAC86F332A4F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B82F749123828A82B0C3D3AC /* phoneApp */;
+			targetProxy = 5213368F3E0EA63AE3EAFFEC /* PBXContainerItemProxy */;
+		};
+		CA601A74D410B95D7DCE5AB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1F03036234899C588516D56 /* OutageWidget */;
+			targetProxy = 5BE5F01D11CE0D5714B66A03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B33C160619034193569AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = phoneAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.local.phoneapp.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phoneApp.app/phoneApp";
+			};
+			name = Debug;
+		};
+		114B7ADA1D30F67F9601ADA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = phoneApp/phoneApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = phoneApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.local.phoneapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1267B13E9D5E59E79B15B7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = phoneAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.local.phoneapp.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phoneApp.app/phoneApp";
+			};
+			name = Release;
+		};
+		1B6CA9D4CB12A6AB86E979D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OutageWidget/OutageWidget.entitlements;
+				INFOPLIST_FILE = OutageWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.local.phoneapp.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		427372F07E98A712B7AEED74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		5A1CD6078B7F8B529805352A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = phoneApp/phoneApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = phoneApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.local.phoneapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F461D55AE736A638BF1709D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		F7262C7407EFE180A3E973B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OutageWidget/OutageWidget.entitlements;
+				INFOPLIST_FILE = OutageWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.local.phoneapp.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0544DAAE1EC88989A5A652D8 /* Build configuration list for PBXNativeTarget "phoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114B7ADA1D30F67F9601ADA0 /* Debug */,
+				5A1CD6078B7F8B529805352A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4016792F619940F366CFF5A0 /* Build configuration list for PBXNativeTarget "OutageWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6CA9D4CB12A6AB86E979D0 /* Debug */,
+				F7262C7407EFE180A3E973B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		736BD06FFB5029DD53975952 /* Build configuration list for PBXProject "phoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F461D55AE736A638BF1709D /* Debug */,
+				427372F07E98A712B7AEED74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C72C77E2EDE1DEF02E838E0E /* Build configuration list for PBXNativeTarget "phoneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B33C160619034193569AC1 /* Debug */,
+				1267B13E9D5E59E79B15B7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3054B69590DC85273184D23C /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C65DA01B2F57971EEB22F36 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3054B69590DC85273184D23C /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 47CE761F2039B4C4EE8A7725 /* Project object */;
+}
